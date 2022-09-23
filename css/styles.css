@@ -26,18 +26,23 @@ body {
 
     display: flex;
     flex-direction: column;
+    justify-items: ;
 
 
     background-color: burlywood;
 }
 
 .grid-container1 {
-    width: 60em;
+    width: 59.6em;
     height: 80vh;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    
+   border: 10% black;
+   border-style: solid;
+    
 
     background-color: darkorange;
 }
@@ -46,18 +51,43 @@ body {
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
     border-radius: 20%;
     background-color: black;
 }
+
+#paella-marisco{
+width: 9em;
+height: 9em;
+
+}
+
+
 
 .grid-item2 {
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 20%;
     background-color: white;
 
 }
+
+#paella-valenciana{
+    width: 9em;
+    height: 9em;
+    
+
+}
+
 
 
 .grid-item3 {
@@ -72,11 +102,14 @@ body {
 
 
 .grid-container2 {
-    width: 60em;
+    width: 59.6em;
     height: 80vh;
 
+    border: 8% black;
+    border-style: solid;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: beige;
 }
@@ -112,11 +145,14 @@ body {
 
 
 .grid-container3 {
-    width: 60em;
+    width: 59.6em;
     height: 80vh;
 
+    border: 8% black;
+    border-style: solid;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: darkorange;
 }
@@ -152,46 +188,6 @@ body {
 }
 
 
-.grid-container4 {
-    width: 60em;
-    height: 80vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: beige;
-}
-
-.grid-item10 {
-    width: 10em;
-    height: 10em;
-
-
-    border-radius: 20%;
-    background-color: black;
-}
-
-.grid-item11 {
-    width: 10em;
-    height: 10em;
-
-
-    border-radius: 20%;
-    background-color: white;
-
-}
-
-
-.grid-item12 {
-    width: 10em;
-    height: 10em;
-
-
-    border-radius: 20%;
-    background-color: black;
-
-}
-
 
 
 
@@ -208,4 +204,20 @@ body {
 
 
     background-color: crimson;
+}
+
+
+#basura{
+    width: 30em;
+    height: 70vh;
+}
+
+.precio{
+    height: 3em;
+
+    font-size:2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }
