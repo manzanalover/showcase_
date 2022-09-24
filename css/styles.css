@@ -16,7 +16,7 @@ body {
     flex-direction: center;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: white;
 }
 
 .mostrador {
@@ -29,7 +29,7 @@ body {
     justify-items: ;
 
 
-    background-color: burlywood;
+    background-color: white;
 }
 
 .grid-container1 {
@@ -42,9 +42,9 @@ body {
     
    border: 10% black;
    border-style: solid;
-    
+   border-radius: 5%; 
 
-    background-color: darkorange;
+    background-color: white;
 }
 
 .grid-item1 {
@@ -57,10 +57,10 @@ body {
 
    
     border-radius: 20%;
-    background-color: black;
+    background-color: white;
 }
 
-#paella-marisco{
+#botella-agua{
 width: 9em;
 height: 9em;
 
@@ -81,7 +81,7 @@ height: 9em;
 
 }
 
-#paella-valenciana{
+#botella-vino{
     width: 9em;
     height: 9em;
     
@@ -99,7 +99,7 @@ height: 9em;
     align-items: center;
 
     border-radius: 20%;
-    background-color: black;
+    background-color: white;
 
 }
 
@@ -121,7 +121,7 @@ height: 9em;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: beige;
+    background-color: white;
 }
 
 .grid-item4 {
@@ -133,7 +133,7 @@ height: 9em;
     align-items: center;
 
     border-radius: 20%;
-    background-color: black;
+    background-color: white;
 }
 
 #cerveza {
@@ -176,7 +176,7 @@ height: 9em;
     align-items: center;
 
     border-radius: 20%;
-    background-color: black;
+    background-color: white;
 
 }
 
@@ -198,7 +198,7 @@ height: 9em;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: darkorange;
+    background-color: white;
 }
 
 .grid-item7 {
@@ -210,7 +210,7 @@ height: 9em;
     align-items: center;
 
     border-radius: 20%;
-    background-color: black;
+    background-color: white;
 }
 
 #bombilla {
@@ -248,7 +248,7 @@ height: 9em;
     align-items: center;
 
     border-radius: 20%;
-    background-color: black;
+    background-color: white;
 
 }
 
@@ -272,13 +272,14 @@ height: 9em;
     display: flex;
 
 
-    background-color: crimson;
+    background-color: white;
 }
 
 
 #basura{
     width: 30em;
     height: 70vh;
+    border-radius: 100%;
 }
 
 .precio{
