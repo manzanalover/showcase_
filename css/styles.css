@@ -94,9 +94,19 @@ height: 9em;
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 20%;
     background-color: black;
 
+}
+
+#papelhigienico{
+
+    width: 9em;
+    height: 9em;
 }
 
 
@@ -118,16 +128,41 @@ height: 9em;
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 20%;
     background-color: black;
 }
+
+#cerveza {
+    width: 9em;
+    height: 9em;
+
+}
+
+
+
+
+
 
 .grid-item5 {
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 20%;
     background-color: white;
+
+}
+
+#periodico {
+    width: 9em;
+    height: 9em;
 
 }
 
@@ -136,9 +171,18 @@ height: 9em;
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border-radius: 20%;
     background-color: black;
+
+}
+
+#espejo {
+    width: 9em;
+    height: 9em;
 
 }
 
@@ -161,6 +205,9 @@ height: 9em;
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border-radius: 20%;
     background-color: black;
@@ -170,6 +217,9 @@ height: 9em;
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border-radius: 20%;
     background-color: white;
@@ -181,6 +231,9 @@ height: 9em;
     width: 10em;
     height: 10em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border-radius: 20%;
     background-color: black;
@@ -219,5 +272,4 @@ height: 9em;
     display: flex;
     justify-content: center;
     align-items: center;
-}
 }
