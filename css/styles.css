@@ -213,6 +213,12 @@ height: 9em;
     background-color: black;
 }
 
+#bombilla {
+    width: 9em;
+    height: 9em;
+
+}
+
 .grid-item8 {
     width: 10em;
     height: 10em;
@@ -223,6 +229,12 @@ height: 9em;
 
     border-radius: 20%;
     background-color: white;
+
+}
+
+#cinta {
+    width: 9em;
+    height: 9em;
 
 }
 
@@ -240,7 +252,11 @@ height: 9em;
 
 }
 
+#belen {
+    width: 9em;
+    height: 9em;
 
+}
 
 
 
