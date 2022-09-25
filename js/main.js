@@ -1,6 +1,6 @@
 let totalReciclaje = document.getElementById("totalReciclaje");
 let creditosIniciales = 0;
-totalReciclaje.innerHTML = `${creditosIniciales} creditos`;
+totalReciclaje.innerHTML = `${creditosIniciales}`;
 
 let objetos = [
 {
@@ -13,7 +13,7 @@ let objetos = [
 },
 {
     id: "papelhigienico",
-    creditos: 80
+    creditos: -80
 },
 {
     id: "cerveza",
@@ -25,19 +25,19 @@ let objetos = [
 },
 {
     id: "espejo",
-    creditos: 100
+    creditos: -100
 },
 {
     id: "bombilla",
-    credito: 120
+    creditos: -120
 },
 {
     id: "cinta",
-    credito: 95
+    creditos: -95
 },
 {
     id: "belen",
-    credito: 1000
+    creditos: 900
 }
 ];
 
@@ -45,7 +45,7 @@ const drag = (ev) => {
     ev.dataTransfer.setData("text", ev.target.id);
 
     // console.log("arrastrando...", ev.target.id);
-}
+};
 
 const allowDrop = (ev) => {
     ev.preventDefault();
@@ -60,7 +60,7 @@ const drop = (ev) => {
         return objeto.id == data
     });
 
-    creditosIniciales += objetoDeseado.credito;
+    creditosIniciales += objetoDeseado.creditos;
 
-    totalReciclaje.innerHTML = `${creditosIniciales} creditos`;
+    totalReciclaje.innerHTML = `${creditosIniciales}`;
 };
