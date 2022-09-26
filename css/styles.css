@@ -8,6 +8,8 @@ body {
 
     display: flex;
     flex-direction: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .general {
@@ -39,12 +41,19 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-   border: 10% black;
-   border-style: solid;
-   border-radius: 5%; 
+
+    border: 3px double #a1d7b6;
+    border-radius: 0em 2em 0em 2em;
 
     background-color: white;
+    background: rgba(210, 255, 82, 1);
+    background: -moz-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210, 255, 82, 1)), color-stop(17%, rgba(252, 252, 252, 1)), color-stop(49%, rgba(252, 252, 252, 1)), color-stop(84%, rgba(252, 252, 252, 1)), color-stop(100%, rgba(145, 232, 66, 1)));
+    background: -webkit-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -o-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: linear-gradient(to bottom, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0);
 }
 
 .grid-item1 {
@@ -55,14 +64,14 @@ body {
     justify-content: center;
     align-items: center;
 
-   
+
     border-radius: 20%;
     background-color: white;
 }
 
-#botella-agua{
-width: 9em;
-height: 9em;
+#botella-agua {
+    width: 9em;
+    height: 9em;
 
 }
 
@@ -81,10 +90,10 @@ height: 9em;
 
 }
 
-#botella-vino{
+#botella-vino {
     width: 9em;
     height: 9em;
-    
+
 
 }
 
@@ -103,7 +112,7 @@ height: 9em;
 
 }
 
-#papelhigienico{
+#papelhigienico {
 
     width: 9em;
     height: 9em;
@@ -114,14 +123,23 @@ height: 9em;
 .grid-container2 {
     width: 59.6em;
     height: 80vh;
+    border-radius: 0em 2em 0em 2em;
+    border: 3px double #a1d7b6;
 
-    border: 8% black;
-    border-style: solid;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
+
+    background: rgba(210, 255, 82, 1);
+    background: -moz-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210, 255, 82, 1)), color-stop(17%, rgba(252, 252, 252, 1)), color-stop(49%, rgba(252, 252, 252, 1)), color-stop(84%, rgba(252, 252, 252, 1)), color-stop(100%, rgba(145, 232, 66, 1)));
+    background: -webkit-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -o-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: linear-gradient(to bottom, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0);
 }
 
 .grid-item4 {
@@ -191,13 +209,22 @@ height: 9em;
 .grid-container3 {
     width: 59.6em;
     height: 80vh;
-    border: 0.25em groove #a1d7b6;
-    border-style: solid;
+    border: 3px double #a1d7b6;
+    border-radius: 0em 2em 0em 2em;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
+
+    background: rgba(210, 255, 82, 1);
+    background: -moz-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210, 255, 82, 1)), color-stop(17%, rgba(252, 252, 252, 1)), color-stop(49%, rgba(252, 252, 252, 1)), color-stop(84%, rgba(252, 252, 252, 1)), color-stop(100%, rgba(145, 232, 66, 1)));
+    background: -webkit-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -o-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    background: linear-gradient(to bottom, rgba(210, 255, 82, 1) 0%, rgba(252, 252, 252, 1) 17%, rgba(252, 252, 252, 1) 49%, rgba(252, 252, 252, 1) 84%, rgba(145, 232, 66, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0);
 }
 
 .grid-item7 {
@@ -275,22 +302,22 @@ height: 9em;
 }
 
 
-#basura{
+#basura {
     width: 30em;
     height: 70vh;
     border-radius: 100%;
 }
 
-.precio{
+.precio {
     height: 3em;
 
-    font-size:2em;
+    font-size: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.boton-contenedor{
+.boton-contenedor {
 
     display: flex;
     justify-content: center;
@@ -311,13 +338,15 @@ height: 9em;
     font-family: Courier New;
     color: #ffffff;
     font-size: 20px;
-    padding: 11px 20px 10px 20px;
-    text-decoration: none;
+    padding: 1em 2em 1em 2em;
+    text-decoration: solid;
     display: flex;
     align-items: center;
-  }
-  
-  .button:hover {
+    justify-content: center;
+    align-content: center;
+}
+
+.button:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -328,4 +357,4 @@ height: 9em;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
