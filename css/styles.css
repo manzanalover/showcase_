@@ -191,8 +191,7 @@ height: 9em;
 .grid-container3 {
     width: 59.6em;
     height: 80vh;
-
-    border: 8% black;
+    border: 0.25em groove #a1d7b6;
     border-style: solid;
 
     display: flex;
