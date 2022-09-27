@@ -298,7 +298,7 @@ body {
     align-content: center;
 }
 
-.button {
+.boton {
     font-family: Georgia;
     color: #ffffff;
     font-size: 35px;
@@ -317,8 +317,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
+
+
   }
 
-  .button:hover {
+  .boton:hover {
     background: #09631c;
+
+    transition: 0.2s;
   }
