@@ -65,7 +65,7 @@ _Herramientas utilizadas:_
 
 ## Expresiones de Gratitud 🎁
 
-* xxxxxxxx 📢
+* Gracias a Urbalab y a Github por la oportunidad de poder acceder a este bootcamp y así poder desarrollar desde cero mis conocimientos en programación. 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
 * Da las gracias públicamente 🤓.
 
