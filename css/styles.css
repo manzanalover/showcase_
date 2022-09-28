@@ -34,6 +34,16 @@ body {
     background-color: white;
 }
 
+#text-desc{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #09631c;
+}
+
+
+
 .grid-container1 {
     width: 59.6em;
     height: 80vh;
@@ -64,6 +74,10 @@ body {
     width: 9em;
     height: 9em;
 
+}
+
+#botella-agua:hover{
+    transform: perspective(100%);
 }
 
 
@@ -270,8 +284,8 @@ body {
 
 
 #basura {
-    width: 25em;
-    height: 70vh;
+    width: 20em;
+    height: 50vh;
 
     border: #3b283b solid 0.5em;
     border-radius: 10%;

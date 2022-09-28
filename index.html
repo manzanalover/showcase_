@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/styles.css">
-        <title>Document</title>
+        <title>  Punto de Reciclaje</title>
 
 
 </head>
@@ -16,9 +16,11 @@
         <div class="general">
 
                 <div class="mostrador">
+                        <h2 id="text-desc"> PUNTO DE RECICLAJE - Arrastra a los ítems reciclables y ganas creditos!</h2>
+                        <br>
 
                         <div class="grid-container1">
-                                <div class="grid-item1"><img src="img/water.gif" id="botella-agua" class="ImageDisplay"
+                                <div class="grid-item1"><img src="img/water.gif" id="botella-agua" class="ImageDisplay1"
                                                 alt="paella-marisco" draggable="true" ondragstart="drag(event)" /></div>
                                 <div class="grid-item2"><img src="img/vino.gif" id="botella-vino" class="gifDisplay"
                                                 alt="paellavalenciana" draggable="true" ondragstart="drag(event)" />
@@ -54,10 +56,13 @@
                         <div class="carrito-container">
                                 <audio src="mp3/Star Wars- The Imperial March (Darth Vader's Theme).mp3" autoplay
                                         controls loop></audio>
+                                        
                                 <div class="basura"><img src="img/darth.gif" id="basura" class="gifs" alt="basura"
                                                 ondrop="drop(event)" ondragover="allowDrop(event)" /></div>
+                                                
 
                                 <div class="precio" id="totalReciclaje"></div>
+                                
 
                                 <div class="boton" onclick="vaciar()">BORRAR CREDITOS!</div>
 
