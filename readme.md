@@ -46,7 +46,7 @@ _Aquí es como debe salir la página cuando entras en el enlace arriba._
 
 ## Despliegue 📦
 
-_Arrastra el elemento deseado hasta Darth Vader y suelta ahí, abajo te saldrá los creditos del elemento seleccionado. Si quieres borrar tus créditos y empezar otra vez, aprietas el botón borrar creditos._
+_Arrastra el elemento deseado hasta Darth Vader y suelta ahí, abajo te saldrán los creditos correspondientes al elemento seleccionado. Si quieres borrar tus créditos y empezar otra vez, aprietas el botón borrar creditos que se encuentra abajo._
 
 ## Construido con 🛠️
 
@@ -68,7 +68,7 @@ _Herramientas utilizadas:_
 
 ## Expresiones de Gratitud 🎁
 
+
 * Gracias a Urbalab y a Github por la oportunidad de poder acceder a este bootcamp y así poder desarrollar desde cero mis conocimientos en programación. 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
+
 
