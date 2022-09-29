@@ -37,9 +37,10 @@ Chrome, Safari o cualquier otro.
 _Aquí es como debe salir la página cuando entras en el enlace arriba._
 
 
-```
-<img>
-```
+
+![printscreen](/img/showcase-readme.jpg)
+
+
 
 ## Despliegue 📦
 
