@@ -1,6 +1,8 @@
 # Proyecto Final - Bootcamp Gandia
 
-_Dynamic Showcase_
+_Dynamic Showcase - Punto de Reciclaje_
+
+_A Darth Vader le encanta reciclar el universo, por eso siempre está detrás de todo lo que él considera basura. En este showcase, tenemos que ayudarlo a ganar creditos, llevando cosas reciclabes a su basura._
 
 
 
